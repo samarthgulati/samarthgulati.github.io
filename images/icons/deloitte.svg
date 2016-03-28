@@ -1,1 +1,5 @@
-<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg"><path fill="#254087" d="M0 0h200v200H0z"/><path d="M15 182h46c68 0 94-41 94-79 0-53-34-83-95-83-17 0-35 0-45 1v161zm52-32c-5 0-11 1-13 1l-1-99h14c24 0 47 15 47 50 0 39-30 49-47 48" fill="#fff" fill-rule="evenodd"/><circle cx="165" cy="162" r="20" fill="#96cb3c"/></svg>
+<svg id="deloitte" width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <rect fill="#254087" width="200" height="200" x="0" y="0"></rect>
+    <path transform="translate(15,20)" d="M 0,162 L 46,162 C 114,162 140,121 140,83 C 140,30 106,0 45,0 C 28,0 10,0 0,1 L 0,162 z M 52,130 C 47,130 41,131 39,131 C 39,131 38,32 38,32 C 41,32 46,32 52,32 C 76,32 99,47 99,82 C 99,121 69,131 52,130" style="fill:#fff;fill-rule:evenodd;stroke:none" id="path3463" />
+    <circle cx="165" cy="162" r="20" fill="#96cb3c"></circle>
+</svg>

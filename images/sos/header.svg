@@ -1,1 +1,19 @@
-<svg width="1282" height="802" viewBox="0 0 1282 802" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path stroke="#000" fill="#001A4A" d="M1 1h1280v800H1z"/><circle fill="#F6C651" cx="597" cy="401" r="142"/><g transform="rotate(-180 191.5 206)"><ellipse fill="#D97F86" cx="72" cy="9.5" rx="8" ry="8.5"/><ellipse fill="#C7B9B3" cx="5" cy="9.5" rx="5" ry="5.5"/><ellipse fill="#A14631" cx="213.5" cy="10" rx="7.5" ry="8"/><ellipse fill="#598EBD" cx="143" cy="9.5" rx="9" ry="9.5"/></g><g transform="translate(812 356)"><ellipse fill="#E8AF7B" cx="46.698" cy="46.639" rx="46.698" ry="46.639"/><ellipse fill="#DECD45" cx="176.842" cy="46.908" rx="39.616" ry="39.566"/><ellipse fill="#8798BB" cx="292.831" cy="46.908" rx="32.265" ry="32.224"/><ellipse fill="#84B9CD" cx="406.509" cy="47.047" rx="30.77" ry="30.731"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1282px" height="802px" viewBox="0 0 1282 802" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Equidistant-Scaled-Up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Screen" stroke="#000000" fill="#001A4A" x="1" y="1" width="1280" height="800"></rect>
+        <circle id="Sun" fill="#F6C651" cx="597" cy="401" r="142"></circle>
+        <g id="Rocky" transform="translate(272.500000, 402.500000) rotate(-180.000000) translate(-272.500000, -402.500000) translate(162.000000, 393.000000)">
+            <ellipse id="Venus" fill="#D97F86" cx="72" cy="9.5" rx="8" ry="8.5"></ellipse>
+            <ellipse id="Mercury" fill="#C7B9B3" cx="5" cy="9.5" rx="5" ry="5.5"></ellipse>
+            <ellipse id="Mars" fill="#A14631" cx="213.5" cy="10" rx="7.5" ry="8"></ellipse>
+            <ellipse id="Earth" fill="#598EBD" cx="143" cy="9.5" rx="9" ry="9.5"></ellipse>
+        </g>
+        <g id="Gas" transform="translate(812.000000, 356.000000)">
+            <ellipse id="Jupiter" fill="#E8AF7B" cx="46.6983849" cy="46.63933" rx="46.6983849" ry="46.63933"></ellipse>
+            <ellipse id="Saturn" fill="#DECD45" cx="176.842381" cy="46.9082192" rx="39.6162127" ry="39.5661139"></ellipse>
+            <ellipse id="Uranus" fill="#8798BB" cx="292.831166" cy="46.9082192" rx="32.2648108" ry="32.2240086"></ellipse>
+            <ellipse id="Neptune" fill="#84B9CD" cx="406.508665" cy="47.0472247" rx="30.7703476" ry="30.7314353"></ellipse>
+        </g>
+    </g>
+</svg>
