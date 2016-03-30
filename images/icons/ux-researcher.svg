@@ -1,0 +1,36 @@
+<svg id="ux-research" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="person">
+            <circle cx="25" cy="25" r="25" />
+            <rect y="55" width="50" height="110" rx="25" />
+        </symbol>
+        <clipPath id="crop-circle">
+            <circle cx="95" cy="95" r="88" />
+        </clipPath>
+        <linearGradient id="Gradient3" x1="0" y1="0" x2="0" y2="100%">
+            <stop offset="0%" stop-color="#386C8C" />
+            <stop offset="100%" stop-color="#0A2245" />
+        </linearGradient>
+    </defs>
+    <circle cx="95" cy="95" r="90" fill="url(#Gradient3)" stroke="#efefef" stroke-width="6" />
+    <svg clip-path="url(#crop-circle)">
+        <use xlink:href="#person" fill="#efefef" x="20" y="80" transform="scale(.75)" />
+        <use xlink:href="#person" fill="#efefef" x="185" y="80" transform="scale(.75)" />
+        <line x1="45" x2="75" y1="120" y2="130" stroke="#efefef" stroke-width="12" stroke-linecap="round" />
+        <line x1="65" x2="78" y1="115" y2="137" stroke="#efefef" stroke-width="4" stroke-linecap="round" />
+        <line x1="60" x2="90" y1="137" y2="137" stroke="#efefef" stroke-width="4" stroke-linecap="round" />
+        <rect x="57.5" y="140" width="75" height="10" fill="#efefef" rx="3" />
+        <rect x="87.5" y="140" width="15" height="50" fill="#efefef" rx="3" />
+        <line x1="120" x2="150" y1="130" y2="120" stroke="#efefef" stroke-width="12" stroke-linecap="round" />
+        <line x1="100" x2="90" y1="135" y2="102" stroke="#efefef" stroke-width="4" stroke-linecap="round" />
+        <line x1="102" x2="130" y1="137" y2="137" stroke="#efefef" stroke-width="4" stroke-linecap="round" />
+        <g id="person1-bubble" fill="#efefcf">
+            <rect x="57" y="50" width="40" height="30" rx="5" />
+            <path d="M60,90 65,75 85,75" />
+        </g>
+        <g id="person2-bubble" fill="#efcfef">
+            <rect x="100" y="60" width="35" height="25" rx="18" ry="13" />
+            <path d="M135,85 130,75 110,80" />
+        </g>
+    </svg>
+</svg>
