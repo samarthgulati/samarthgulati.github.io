@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #efefef;
+      color: #232323;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+    section {
+      padding: 0.5rem;
+      width: calc(100vw - 1rem);
+      /* height: 100vh; */
+    }
+
+    .narration, 
+    .narration-end, 
+    .subtext {
+      max-width: 500px;
+      position: sticky;
+      top: 1rem;
+      padding: 0.5rem;
+      margin: 1rem auto;
+      border-radius: 0.25rem;
+      background: hsla(0, 0%, 100%, 0.95);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      z-index: 10000;
+      filter: brightness(100%);
+    }
+    
+    [data-href] {
+      cursor: pointer;
+      transition: filter 100ms ease-in-out;
+    }
+
+    [data-href]:hover {
+      filter: grayscale(70%) brightness(125%);
+    }
+  </style>
+</head>
+<body>
+    <section style="height: 100vh">
+      <iframe width="100%" height="100%" src="https://samarthgulati.com/generative-drawing/iframe-slides/logoes6/index.html" frameborder="0"></iframe>
+    </section>
+    <section>
+      <p class="narration">
+        Like a lot of others in the field, my first experience in creative coding was with Macromedia Flash.
+      </p>
+      <p class="subtext">
+        While completing my undergrad in Electronics, I along with a couple of friends designed and built website for college co-curricular events.
+      </p>
+      <div style="display: flex; align-items: center;">
+        <img alt="Aranya Flash Website" style="object-fit:contain; height: --webkit-fill-available; width: calc(57% - 0.25rem); margin-right: 0.5rem;"
+          src="./assets/aranya.jpg" alt="">
+        <img alt="Team Fateh Flash Website" style="object-fit:contain; height: --webkit-fill-available; width: calc(45% - 0.25rem);"
+        src="./assets/fateh.png" alt="">
+      </div>
+      <p class="narration-end">
+        Flash provided a creativity canvas like no other, to allow for seamless animations triggered by user events. 
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        Alas the joy was short lived, the iPad killed any practicality of continuing to pursue a career in Flash.
+      </p>
+      <p class="subtext">
+        I moved from the windowed fixed resolution and skeuomorphic experience from Flash to building responsive websites using flat design using HTML/CSS/JS. 
+      </p>
+      <div style="display: flex; align-items: center;">
+        <img alt="" style="object-fit:contain; height: --webkit-fill-available; width: 53.5%; margin-right: 0.5rem;"
+          src="./assets/deloitte.png" alt="">
+        <img data-href="https://samarthgulati.com/hcs.html" alt="" style="object-fit:contain; height: --webkit-fill-available; width: calc(46.5% - 0.5rem);"
+        src="./assets/hcs.jpg" alt="">
+      </div>
+      <p class="narration-end">
+        But more I delved into designing interfaces, the more it felt the tools and platform were not the limitation. 
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        To widen my understanding in interface design I took up Masters in Human Computer Interaction at University of Michigan, Ann Arbor.
+      </p>
+      <p class="subtext">
+        Learning about the user centered design approach, I designed a few mobile app interfaces that got me familiar with the user, not technology, first approach.
+      </p>
+      <div style="display: flex; align-items: center;">
+        <img data-href="https://samarthgulati.com/shire.html" alt="" style="object-fit:contain; height: --webkit-fill-available; width: 53.5%; margin-right: 0.5rem;"
+          src="./assets/shire.png" alt="">
+        <img data-href="https://samarthgulati.com/trekr.html" alt="" style="object-fit:contain; height: --webkit-fill-available; width: calc(46.5% - 0.5rem);"
+        src="./assets/trekr.png" alt="">
+      </div>
+      <p class="narration-end">
+        The masters widened my perspective in interface design, and helped me think in processes than solutions.
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        Taking courses across departments (arts, engineering, business, psychology) widened the array of tools I had at my disposal.
+      </p>
+      <p class="subtext">
+        I built interactive data visualisations using D3 and even did a parametric 3D printed calendar interface.
+      </p>
+      <div style="display: flex; align-items: center;">
+        <video data-href="https://samarthgulati.com/solr-scale/" muted autoplay loop alt="" style="object-fit:contain; width: 51.75%; margin: 0 0.5rem;"
+          src="./assets/solar-system.mp4" alt=""></video>
+        <video data-href="https://codepen.io/collection/XBWvBy/#" muted autoplay loop alt="" style="object-fit:contain; width: 50%;"
+          src="./assets/calendar.mp4" alt=""></video>
+      </div>
+      <p class="narration-end">
+        With this wide view of design practice, I got a role at Adobe's Search and Sensei (ML/AI) team as a Experience Developer.
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        Being at the cutting edge of what computer vision and Machine Learning can provide, working at Adobe provided an avenue to bring together all I had learned over the years.
+      </p>
+      <p class="subtext">
+        I picked up front end JavaScript frameworks like React and Angular to build rich web apps, and built interactive prototypes to allow users to interact with outputs from Machine Learning models.
+      </p>
+      <div style="display: flex; align-items: center;">
+        <video data-href="https://www.bbc.com/news/av/technology-41768758" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: 100%;"
+          src="https://s3.amazonaws.com/media-p.slid.es/videos/992298/jMLbGeXR/uis-rundown.mp4" alt=""></video>
+      </div>
+      <p class="narration-end">
+        Working with various graphics APIs the web platform has to offer, from Canvas to SVG, it allowed me delve into parametric design further.
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        I started designing custom inputs for web based interfaces, and even delved in building a web based game for a GameJam. 
+      </p>
+      <p class="subtext">
+        I challenged myself to use only vanilla JS to push my understanding of various web APIs, which introduced to me Web Animations API that allows equivalent capabilities of GSAP.
+      </p>
+      <div style="display: flex; align-items: center;">
+        <video data-href="https://kaleidoscope-select.glitch.me/" muted autoplay loop alt="" style="object-fit:contain; width: 52.5%; margin: 0 0.5rem;"
+          src="./assets/kaleid.mp4" alt=""></video>
+        <video data-href="https://samarthgulati.com/block-stack/" muted autoplay loop alt="" style="object-fit:contain; width: 48.5%;"
+          src="./assets/block-stack.mp4" alt=""></video>
+      </div>
+      <p class="narration-end">
+        As I headed deeper into creative expression using code, it kept on introducing me to new communities on the platform.
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        One such community was of Plotter artists. To bring my parametric creations to physical world, I got a plotter hobby kit. 
+      </p>
+      <p class="subtext">
+        I did a month of Inktober using the Plotter and built a series of plots using parametric SVG drawn using vanilla JS.
+      </p>
+      <div style="display: flex; align-items: center;">
+        <video data-href="https://codepen.io/collection/DNgWyJ" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: 100%;"
+          src="./assets/plotter.mp4" alt=""></video>
+      </div>
+      <p class="narration-end">
+        One thing leading to another, and I got the opportunity to attend GRaphics On Web (GROW) conference in Paris.
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        It was amazing to meet a group of like minded people. Having similar career trajectories, interests and skills.
+      </p>
+      <p class="subtext">
+        One thing became apparent soon, one skill I didn't get much to delve in all these years of building app interfaces was WebGL. 
+      </p>
+      <div style="display: flex; align-items: center; justify-content: center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fwGZihSHIuw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p class="narration-end">
+        Coincidentally I was attending Leon's WebGL workshop, which went from the WebGL triangle to all the way to building VFX using WebGL, providing me enough resource material to work upon for next few years. 
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        I started exploring WebGL as a creative medium, and starting doing sketches.
+      </p>
+      <p class="subtext">
+        I did some prints, and for other static promotional media for events I was hosting.
+      </p>
+      <div style="display: flex; align-items: center;">
+        <video data-href="https://strands.glitch.me/" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: calc(50% - 0.5rem);; margin-right: 0.5rem;"
+          src="./assets/strands.mp4" alt=""></video>
+        <video data-href="https://morph.glitch.me/" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: 50%;"
+        src="./assets/flubber.mp4" alt=""></video>
+      </div>
+      <p class="narration-end">
+        But it only came together when I was introduced to Hydra, a WebGL library primarily made for live coders to allow them to mix and match shader functions.
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        Harkening back to creative tooling days from Adobe, I built a Blockly interface for the library, allowing beginners to get started using Hydra.
+      </p>
+      <p class="subtext">
+        I extended the WebGL functions it came with and started doing dailies on Instagram using the tool allowing me to explore creative possibilities of creating interactive graphics using just Fragment shaders.
+      </p>
+      <div style="display: flex; align-items: center; justify-content: center;">
+        <video data-href="https://samarthgulati.com/hydra-blockly/" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: 55%; margin-right: 0.5rem;"
+          src="./assets/hydra-blockly.mp4" alt=""></video>
+        <video data-href="https://www.instagram.com/samarthishere/" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: calc(45% - 0.5rem);"
+          src="./assets/hydra-daily.mp4" alt=""></video>
+      </div>
+      <p class="narration-end">
+        In an evolution from working with WebGL as a creative medium, I got the chance to implement these skills in a client project for the local museum soon after.
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        I built a tool for Chandigarh Museum, where in traditional artists could upload a face mask drawing that gets rendered as an AR face filter all on the web. 
+      </p>
+      <p class="subtext">
+        The tool was built using TensorFlow's FaceMesh model and ThreeJS library.
+      </p>
+      <div style="display: flex; align-items: center;">
+        <video data-href="https://samarthgulati.com/ar-face-filters/" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: calc(50% - 0.5rem);; margin-right: 0.5rem;"
+          src="./assets/thayyam.mp4" alt=""></video>
+        <video data-href="https://www.youtube.com/watch?v=TpiGFaHC_5U" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: 50%;"
+        src="./assets/kathak.mp4" alt=""></video>
+      </div>
+      <p class="narration-end">
+        I got the chance to showcase it at Google's TensorFlow show and tell, and ran a workshop for it for NodeSchoolSF. 
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        The museum project led to another gig for an audio installation for Berlin city. 
+      </p>
+      <p class="subtext">
+        This time it was pertaining to web audio streams, and using the audio context to convolve an ambient sound recording to live stream coming from a binaural microphone placed at the venue. 
+      </p>
+      <div style="display: flex; align-items: center;">
+        <video data-href="https://radio.sound.codes/" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: calc(50% - 0.5rem);; margin-right: 0.5rem;"
+          src="./assets/sound-codes-web.mp4" alt=""></video>
+        <video data-href="https://radio.sound.codes/" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: 50%;"
+        src="./assets/sound-codes-conv.mp4" alt=""></video>
+      </div>
+      <p class="narration-end">
+        I got the put in slight bit of visual element in as well where I got to visualize the convolved audio data as a Spectogram in the background.
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        While I was exploring AudioContext and live-coding through Hydra, another library I came across was Gibber. It allowed live coders to create music using code.
+      </p>
+      <p class="subtext">
+        Inspired by Google's Piano roll experiment I built an interface for beginners to get started in Gibber.
+      </p>
+      <div style="display: flex; align-items: center;">
+        <video data-href="https://samarthgulati.com/gibber-roll/" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: 100%;"
+          src="./assets/gibber-roll.mp4" alt=""></video>
+      </div>
+      <p class="narration-end">
+        This lead to another series of workshops with Codame. All of these explorations came together when I got the chance to build a website for an art festival in India. 
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        The curator of FutureLanding wanted to express the overwhelming nature of content being generated on the internet, that a user can never catch up to it. 
+      </p>
+      <p class="subtext">
+        For this we conceptualized a warp field where screenshots of various artists is constantly being sucked into a black hole, as if they are landing into a future that never lands (arrives).
+      </p>
+      <div style="display: flex; align-items: center;">
+        <video data-href="https://futurelanding.serendipityartsvirtual.com/" muted autoplay loop alt="" style="object-fit:contain; height: --webkit-fill-available; width: 100%;"
+          src="./assets/future-landing.mp4" alt=""></video>
+      </div>
+      <p class="narration-end">
+        It was a great experience putting together all my skills in creative coding together. We had node JS scripts to dynamically pull screenshots, WebGL warping effect, SVG animations for navigation, the entire mix.
+      </p>
+    </section>
+    <section>
+      <p class="narration">
+        Looking back all these myriad of explorations have one thing in common, I have got the chance to build creative experiences on web using the APIs provided by the platform.
+      </p>
+    </section>
+    <script>
+      document.body.addEventListener('click', function(e) {
+        if(!'href' in e.target.dataset) return
+        window.open(e.target.dataset.href, '_blank')
+      })
+    </script>
+</body>
+</html>
